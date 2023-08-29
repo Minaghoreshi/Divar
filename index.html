@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دیوار مینا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Open+Sans&family=Poppins:wght@100&family=Quicksand:wght@400;500&family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="flex justify-center text-darkgray font-['serif']">
+    <div
+      style="direction: rtl"
+      class="relative container p-4 flex flex-col gap-2  lg:w-[80%] lg:text-base "
+    >
+      <div class="fixed top-0 left-0 right-0 bg-white p-4 z-50 lg:hidden">
+        <div
+          class="header bg-[#f5f5f5] h-[50px] flex justify-between p-4 items-center "
+        >
+          <div class="search header--inside">
+            <i class="fa-solid fa-magnifying-glass" style="color: #a6a6a6"></i>
+            <span>جستجو در همه آگهی ها</span>
+          </div>
+          <div class="location header--inside">
+            <div class="w-0.5 h-6 bg-[#a6a6a6]"></div>
+            <span>تهران</span>
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+        </div>
+
+        <div class="filtrers no-scrollbar text-[#909090]">
+          <button class="filters--button">
+            <i class="fa-solid fa-bars"></i>فیلتر ها
+          </button>
+          <button class="filters--button">
+            <i class="fa-solid fa-bars"></i>دسته‌ها
+          </button>
+          <button class="filters--button">خودروی سواری</button>
+          <button class="filters--button">استخدام</button>
+          <span class="filters--button">فروش آپارتمان</span>
+          <button class="filters--button">اجاره آپارتمان</button>
+          <button class="filters--button">موبایل</button>
+          <button class="filters--button">صندلی و نیمکت</button>
+        </div>
+      </div>
+
+      <div class="fixed hidden lg:flex gap-2 border-b-2	w-full px-[11%] py-4 justify-between   bg-white z-50 top-0 left-0 right-0">
+        <div class="flex gap-10 w-[70%]">
+          <div class="flex gap-4 items-center align-center">
+            <img class="bg-white" src="./icons/android-chrome-512x512.png" alt="">
+            <div class="w-0.5 h-6 bg-[#a3a3a3]"></div>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="">تهران</span>
+            </div>
+          </div>
+          <div class="flex gap-4 w-[70%] items-center">
+            <div class="flex gap-4 items-center">
+              <span>دسته‌ها</span> <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class=" pr-4 py-2 gap-2 flex items-center rounded-md w-[80%] bg-[#f5f5f5]">  
+              <i class="fa-solid fa-magnifying-glass" style="color: #a6a6a6"></i>
+              <input class="rounded-md w-full bg-[#f5f5f5] focus:border-blue-500" placeholder="جستجو در همه آگهی ها"></input>
+            </div>
+           
+          </div>
+        </div>
+        <div class="flex items-center gap-10 ">
+          <div class="flex gap-4 items-center align-center flex-shrink-0">
+            <i class="fa-regular fa-user" ></i>
+            <span>دیوار من</span>
+          </div>
+          <div class="flex gap-4 items-center align-center flex-shrink-0">
+            <i class="fa-regular fa-comment"></i>
+            <span>چت</span>
+          </div>
+          <span>پشتیبانی</span>
+          <button class="flex px-5 rounded-md py-2 items-center align-center flex-shrink-0 bg-[#a62625] text-white font-bold"> ثبت آگهی</button>
+        </div>
+      </div>
+      <div class="h-[2px]"></div>
+      <div class="  mt-[110px] lg:mt-20 lg:flex justify-between flex-row-reverse">
+       <span> دیوار تهران :‌ انواع آگهی‌ها و خدمات در تهران</span>
+      </div>
+      
+      <div class="relative gap-10  static">
+        <div class="hidden lg:flex flex-col gap-6 w-[250px] overflow-auto custom-scroll no-scrollbar fixed 2xl:right-48 top-[110px] lg:30 xl:right-24">
+          <span class="hidden lg:block">دسته‌ها</span>
+
+          <div class="new">
+           <img src="./icons/icons8-downtown-50.png" alt="">
+            <span>املاک</span>
+          </div>
+          
+        <div class="new">
+          <img src="./icons/icons8-car-50.png" alt="">
+          <span>وسایل نقلیه</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-digital-50.png" alt="">
+          <span>کالای دیجیتال</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-table-lights-50.png" alt="">
+          <span>خانه و آشپزخانه</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-paint-brush-20.png" alt="">
+          <span>خدمات</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-watch-24.png" alt="">
+          <span>وسایل شخصی</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-dice-64.png" alt="">
+          <span>سرگرمی و فراغت</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-social-32.png" alt="">
+          <span>اجتماعی</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-chair-48.png" alt="">
+          <span>تجهیزات و صنعت</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-briefcase-64.png" alt="">
+          <span>استخدام و کاریابی</span>
+        </div>
+        <div class="new">
+          <img src="./icons/icons8-applicants-64.png" alt="">
+          <span>کارجویان</span>
+        </div>
+        <div>
+        <div class="sidediv border-t-2">
+          <i class="fa-solid fa-chevron-down"  style="color: #a6a6a6;"></i>
+          <span>محل</span>
+        </div>
+        <div class="sidediv">
+          <i class="fa-solid fa-chevron-down"  style="color: #a6a6a6;"></i>
+          <span>قیمت</span>
+        </div>
+        <div class="sidediv">
+          <i class="fa-solid fa-chevron-down" style="color: #a6a6a6;"></i>
+          <span>وضعیت آگهی</span>
+        </div>
+        </div>
+        <div class="flex flex-col gap-8  text-sm ">
+          <div class="flex flex-wrap gap-4"> 
+            <span >درباره دیوار</span>
+            <span>دریافت برنامه</span>
+            <span>بلاگ دیوار</span>
+            <span>کسب و کارها</span>
+            <span>پشتیبانی و قوانین</span></div>
+         
+          <div class="flex gap-8 flex-row-reverse justify-center ">
+            <i class="fa-solid fa-envelope text-lg"></i>
+            <i class="fa-brands fa-linkedin text-lg"></i>
+            <i class="fa-brands fa-twitter text-lg"></i>            
+            <i class="fa-brands fa-instagram text-lg"></i>
+            
+          </div>
+        <div class="flex gap-2">
+          <img src="./icons/1.png" alt=""><img src="./icons/2.png" alt=""><img src="./icons/3.jpeg" alt="">
+        </div>
+        </div>
+        </div>
+        <div class="cardscontainer">
+          <!-- <div class="testcard">
+            <div class="text relative">
+              <span class="title">${item.title}</span>
+              <p class="description">${item.description}</p>
+              <i
+                class="fa-sharp fa-regular fa-comment absolute -left-6 bottom-0"
+                style="color: #2f2f2f"
+              ></i>
+            </div>
+            <div><img class=".product--image" src="./img/img1.png" alt="" /></div>
+          </div> -->
+        </div>
+      </div>
+   
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
