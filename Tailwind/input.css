@@ -13,13 +13,13 @@
     @apply rounded-full border-2 p-2 py-0 flex gap-2 items-center flex-shrink-0;
   }
   .cardscontainer {
-    @apply flex flex-col gap-2 lg:w-full lg:flex-row  lg:flex-wrap  lg:gap-4 lg:mr-[220px] xl:mr-[270px] xl:w-[80%];
+    @apply flex flex-col gap-2 lg:w-full lg:flex-row  lg:flex-wrap  lg:gap-4 lg:mr-[250px] xl:mr-[300px] xl:w-[80%] pb-14;
   }
   .testcard {
-    @apply flex p-2 justify-between border-2 rounded xl:basis-[32%] lg:p-4 lg:basis-[25%];
+    @apply flex p-2 justify-between border-2 rounded 2xl:basis-[31%] lg:p-4 lg:basis-[20%%] xl:basis-[48%];
   }
   .title {
-    @apply text-black text-[20px];
+    @apply text-black text-base lg:text-[20px] font-medium;
   }
   .description {
     @apply text-[#909090];
@@ -36,10 +36,12 @@
   .sidediv {
     @apply py-4 text-sm border-b-2 text-black w-[220px];
   }
+
   .custom-scroll {
-    max-height: 800px;
+    @apply overflow-y-auto overflow-x-hidden hidden lg:flex flex-col gap-6 xl:w-[270px] max-h-[53rem]  no-scrollbar fixed 2xl:right-48 top-[110px] lg:w-[200px] xl:right-24 pb-4;
+    /* max-height: 800px;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: hidden; */
   }
   span,
   i,
@@ -48,6 +50,9 @@
   }
   input {
     @apply focus:outline-none focus:ring-0;
+  }
+  .footericons {
+    @apply flex flex-col basis-1/4  justify-between items-center;
   }
 }
 @layer utilities {
